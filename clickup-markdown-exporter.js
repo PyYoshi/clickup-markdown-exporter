@@ -102,7 +102,7 @@ async function main() {
         .check((argv) => {
             // APIキーが引数でも環境変数でも指定されていない場合はエラー
             if (!argv.apiKey) {
-                throw new Error('API Key is required. Provide it via --apiKey or CLICKUP_API_KEY environment variable.');
+                throw new Error('API Key is required. Provide it via --apiKey or CLICKUP_API_TOKEN environment variable.');
             }
             return true;
         })
