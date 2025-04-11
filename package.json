@@ -1,0 +1,12 @@
+{
+  "name": "clickup-docs-exporter",
+  "version": "1.0.0",
+  "description": "ClickUpドキュメントを階層構造を維持したままMarkdownにエクスポートするツール",
+  "author": "PyYoshi",
+  "license": "MIT",
+  "dependencies": {
+    "@api/clickup": "file:.api/apis/clickup",
+    "sanitize-filename": "^1.6.3",
+    "yargs": "^17.7.2"
+  }
+}
